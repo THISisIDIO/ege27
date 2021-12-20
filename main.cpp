@@ -7,6 +7,7 @@
     {
         int n(0);
         int v(0);
+        int q(0);
         cin >> n;
         vector<int> numbers(n, 0);
         for (int i(0); i<n; i++)
@@ -16,8 +17,10 @@
         {
             v=numbers[i]*numbers[j];
             if (v%35==0)
-                cout << v<< endl;
+                q+=1;
+
         }
+        cout << q;
 
 
     }
