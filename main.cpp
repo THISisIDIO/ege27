@@ -1,10 +1,21 @@
 #include <iostream>
 #include <vector>
-using namespace std;
+#include <fstream>
+    using namespace std;
 
-int main()
+    void max_sum_div()
+    {
+        int n(0);
+        cin >> n;
+        vector<int> numbers(n, 0);
+        for (int i(0); i<n; i++)
+            cin >> numbers[i];
+        for (int i(0); i<n; i++)
+            cout << numbers[i];
+    }
+    int main()
 {
-
-    cout << "Hello world!" << endl;
-    return 0;
+    max_sum_div();
 }
+
+
