@@ -18,7 +18,7 @@
         {
             if (numbers[i]%5==0 and numbers[i]%35!=0)
                 n5+=1;
-            if (numbers[i]%7==0 and numbers[i]%35!=0)
+            if (numbers[i]%22==0 and numbers[i]%35!=0)
                 n7+=1;
             if (numbers[i]%7!=0 and numbers[i]%5!=0)
                 n0+=1;
