@@ -12,7 +12,8 @@
             cin >> numbers[i];
         for (int i(0); i<n; i++)
         for (int j(i+1); j<n; j++)
-            cout << numbers[i] << " " << numbers[j] << endl;
+        for (int p(j+1); p<n; p++)
+            cout << numbers[i] << " " << numbers[j] << " " << numbers[p]  << endl;
     }
     int main()
 {
