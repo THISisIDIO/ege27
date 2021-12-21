@@ -13,7 +13,13 @@
         for (int i(0); i<n; i++)
         for (int j(i+1); j<n; j++)
         for (int p(j+1); p<n; p++)
-            cout << numbers[i]*numbers[j]*numbers[p]  << endl;
+        {
+            if ((numbers[i]*numbers[j]*numbers[p])%4!=0)
+                cout << numbers[i]*numbers[j]*numbers[p]  << endl;
+
+        }
+
+
     }
     int main()
 {
